@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #ff3f6c;
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .intro {
+    margin-top: 50px;
+  }
+  
+  .intro h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .intro p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 10px 20px;
+    background-color: #ff3f6c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e03359;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  

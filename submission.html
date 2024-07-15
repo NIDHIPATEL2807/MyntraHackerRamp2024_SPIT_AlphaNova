@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Your Style - Myntra Fashion Guru</title>
+  <link rel="stylesheet" href="submission.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="myntra-fashion-guru.html">Home</a>
+      <a href="challenges.html">Challenges</a>
+      <a href="leaderboard.html">Leaderboard</a>
+    </nav>
+  </header>
+  <main>
+    <section class="submission">
+      <h1>Submit Your Style</h1>
+      <form id="submission-form">
+        <label for="challenge">Select Challenge:</label>
+        <select id="challenge" name="challenge">
+          <option value="monochrome">Monochrome Magic</option>
+          <option value="workwear">Workwear Remix</option>
+        </select>
+
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Myntra Fashion Guru. All rights reserved.</p>
+    <div class="social-media">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+  <script src="submission.js"></script>
+</body>
+</html>

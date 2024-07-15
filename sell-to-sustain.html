@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell to Sustain</title>
+    <link rel="stylesheet" href="sell-to-sustain.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Assets/logoselltosustain.png" alt="Logo">
+            <h1>Sell to Sustain</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="swap-to-sustain.html">Swap to Sustain</a></li>
+                <li><a href="buy-preloved.html">Buy PreLoved</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sell-form">
+            <h2>List Your Product</h2>
+            <form id="productForm">
+                <div class="form-group">
+                    <label for="productName">Product Name:</label>
+                    <input type="text" id="productName" name="productName" required>
+                </div>
+                <div class="form-group">
+                    <label for="productDescription">Product Description:</label>
+                    <textarea id="productDescription" name="productDescription" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="productPrice">Price:</label>
+                    <input type="number" id="productPrice" name="productPrice" required>
+                </div>
+                <div class="form-group">
+                    <label for="productImage">Upload Product Image:</label>
+                    <input type="file" id="productImage" name="productImage" accept="image/*" required>
+                    <img id="previewImage" src="#" alt="Preview Image" style="display: none;">
+                </div>
+                <button type="submit">List Product</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+
+    <script src="sell-to-sustain.js"></script>
+</body>
+</html>

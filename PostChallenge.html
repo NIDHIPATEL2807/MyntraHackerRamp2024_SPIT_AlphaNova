@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Challenge</title>
+    <link rel="stylesheet" href="PostChallenge.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Assets/myntra_logo.webp" alt="Logo">
+            <h1>Post Challenge</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="MyntraOwnChallenge.html">Myntra Own Challenge</a></li>
+                <li><a href="Leaderboard.html">Leaderboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="challenge-form">
+            <h2>Post Your Challenge</h2>
+            <form id="challengeForm">
+                <div class="form-group">
+                    <label for="challengeName">Name of Challenge:</label>
+                    <input type="text" id="challengeName" name="challengeName" required>
+                </div>
+                <div class="form-group">
+                    <label for="challengeDescription">Description:</label>
+                    <textarea id="challengeDescription" name="challengeDescription" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="challengeImage">Upload Challenge Image:</label>
+                    <input type="file" id="challengeImage" name="challengeImage" accept="image/*" required>
+                    <img id="previewChallengeImage" src="#" alt="Preview Image" style="display: none;">
+                </div>
+                <button type="submit">Submit Challenge</button>
+            </form>
+        </section>
+
+        <section class="challenges-list" id="challengesContainer">
+            <!-- Challenges will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+
+    <script src="PostChallenge.js"></script>
+</body>
+</html>
