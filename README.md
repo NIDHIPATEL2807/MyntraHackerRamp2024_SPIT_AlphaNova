@@ -46,6 +46,15 @@ In this component, users can showcase their fashion creativity through styling c
 ## Technologies Used
 
 - HTML5, CSS3 for frontend structure and styling
+
+## Contributors
+
+Thanks for contribution:
+
+- [@NIDHIPATEL2807](https://github.com/NIDHIPATEL2807)
+- [@Asmiya135](https://github.com/Asmiya135)
+
+
 - JavaScript (ES6) for dynamic client-side interactions
 
 ##ScreenShots
